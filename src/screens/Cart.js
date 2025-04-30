@@ -31,7 +31,7 @@ export default function Cart() {
       const data = await res.json();
   
       const options = {
-        key: 'rzp_test_wG5yxU0KM6H2dv',  // Razorpay Key ID
+        key: '',  // Razorpay Key ID
         amount: data.amount,
         currency: data.currency,
         name: 'Your Store Name',
